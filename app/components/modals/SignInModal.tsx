@@ -99,7 +99,7 @@ const SignInModal = () => {
         />
       </div>
       <div className='justify-center flex flex-row items-center gap-1'>
-        <div>Don't have an account?</div>
+        <div>Don&apos;t have an account?</div>
         <div
           onClick={toggle}
           className='text-accent-700 cursor-pointer hover:underline font-semibold'
