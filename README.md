@@ -1,34 +1,77 @@
+# Cozy_Stay
+##### Cozy_Stay is a web application designed to help users find and book cozy accommodations for their stays. It offers an intuitive interface for searching, filtering, and booking stays, providing a seamless user experience from start to finish.
+
+## Features
+#### Search Accommodations: 
+Quickly find available stays based on location, dates, and other criteria.
+#### Filter Results: 
+Use various filters such as price range, type of accommodation, and amenities to refine your search results.
+#### Booking Management: 
+View, manage, and cancel bookings with ease.
+#### User Profiles: 
+Create and manage user profiles for a personalized experience.
+#### Responsive Design: 
+Access the application from any device with a responsive and user-friendly design.
+
+## Installation
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+To get started with Cozy_Stay, follow these steps:
 
-## Getting Started
+Clone the Repository
+```
+git clone https://github.com/Vvu08/Cozy_Stay.git
+```
+Navigate to the Project Directory
+```
+cd Cozy_Stay
+```
+Install Dependencies
+Ensure you have Node.js and npm installed. Then run:
+```
+npm install
+```
+Set Up Environment Variables
 
-First, run the development server:
+Create a .env file in the root directory and add the necessary environment variables. An example configuration looks like:
+```
+DATABASE_URL=
+NEXTAUTH_SECRET=
 
-```bash
+GIHUB_ID=
+GIHUB_SECRET=
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="dhynoehjs"
+```
+Start the Application
+Run the following command to start the development server:
+```
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 ```
+The application should now be accessible at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+#### Search for Accommodations
+Use the search bar on the homepage to enter your desired location and dates. Apply filters to narrow down your search results.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Book a Stay
+Select an accommodation from the search results and proceed to the booking page. Fill out the required details and confirm your booking.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Manage Your Bookings
+Access your profile to view, manage, or cancel your existing bookings.
 
-## Learn More
+## Contributing
+Contributions are welcome! I would be glad if you can help me with development issue 💖.
+If you have suggestions or improvements, please follow these guidelines:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    1. Fork the repository.
+    2. Create a new branch (git checkout -b feature/your-feature).
+    3. Commit your changes (git commit -am 'Add new feature').
+    4. Push to the branch (git push origin feature/your-feature).
+    5. Create a new Pull Request.
